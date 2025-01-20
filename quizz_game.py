@@ -5,7 +5,7 @@ class Quiz:
         self.q_no = 0
         self.correct = 0
         self.data_size = len(question)
-        self.run_quiz
+        self.run_quiz()
 
     def run_quiz(self):
         for q_no in range(self.data_size):
